@@ -20,7 +20,7 @@ export default function Course({ courseName }) { //child component
 
 
     return (
-        <div>
+        <div className="courseDiv">
             <img className="course" src={courseMap[courseName]} alt="C"></img>
         </div>
     );

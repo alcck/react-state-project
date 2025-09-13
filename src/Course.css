@@ -1,7 +1,10 @@
-.course{
-    border: 1px solid blue;
-    border-radius: 10px;
-    padding: 10px;
-    text-align: center;
+.course {
     height: 300px;
+}
+
+.courseDiv {
+    margin: 10px;
+    border: 1px solid lightskyblue;
+    border-radius: 5px;
+    padding: 10px;
 }
