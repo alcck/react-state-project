@@ -1,0 +1,25 @@
+.App {
+    display: flex;
+    flex-direction: column; /* stack children vertically , alignments are opposite now since we flipped default direction*/
+    justify-content: center; /* vertical alignment */
+    align-items: center; /* horizontal alignment */
+}
+
+.courseList{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+    justify-content: center;
+
+}
+.appButton{
+    margin-top: 20px;
+    width: 25%;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid blue;
+}

@@ -2,13 +2,14 @@ import React from "react";
 import C from './images/C.png'
 import Java from './images/Java.png'
 import Python from './images/Python.png'
-import JS from './images/Javascript.png'
+import Javascript from './images/Javascript.png'
+import './Course.css';
 
     const courseMap = {
-        "C": C,
-        "Java": Java,
-        "Python": Python,
-        "Javascript": JS
+        C,
+        Java,
+        Python,
+        Javascript
     };
 
 export default function Course({ courseName }) { //child component
@@ -20,7 +21,7 @@ export default function Course({ courseName }) { //child component
 
     return (
         <div>
-            <img src={courseMap[courseName]} height={"300"} alt="C"></img>
+            <img className="course" src={courseMap[courseName]} alt="C"></img>
         </div>
     );
 }
